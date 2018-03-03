@@ -46,6 +46,8 @@ public class Person {
             Person person = (new Builder("wangcai")).age(10).address("124").build();
 
             System.out.println(person.toString());
+
+            System.out.println(person.getClass());
         }
     }
 }
