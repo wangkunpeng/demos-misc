@@ -48,6 +48,8 @@ public class Person {
             System.out.println(person.toString());
 
             System.out.println(person.getClass());
+
+            System.out.println(1);
         }
     }
 }
