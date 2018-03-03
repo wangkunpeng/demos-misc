@@ -50,6 +50,8 @@ public class Person {
             System.out.println(person.getClass());
 
             System.out.println(1);
+
+            System.out.println(2);
         }
     }
 }
