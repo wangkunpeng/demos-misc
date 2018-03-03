@@ -1,0 +1,28 @@
+[
+  [
+    "(?c)-90",
+    [
+      "aserver",
+      [
+        "(db@mycart)",
+        "cdc",
+        [
+          "(tair@ocs_mdb)",
+          "(?)-5",
+          [
+            "(tair@ocs_mdb)"
+          ],
+          "(tair@ldbcommon)"
+        ],
+        "(tair@adp)",
+        "(tair@inventory)",
+        "(tair@ldbcommon)",
+        "(tair@ump)",
+        "(tair@ocs_mdb)",
+        "(tair@mdbcart)",
+        "(tair@mars)",
+        "(tair@item)"
+      ]
+    ]
+  ]
+]

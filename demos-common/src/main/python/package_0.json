@@ -1,0 +1,47 @@
+{
+  "name": "上游应用",
+  "children": [
+    {
+      "name": "fcs:fcshost-&gt;com.cainiao.ofp.fcs.fbc.common.api.FulfilService@fulfilBizAccept~FA",
+      "children": [
+        {
+          "name": "logisticscenter:lc_g1host-&gt;com.taobao.loc.service.orderinfo.LocReadService@queryLogisticsOrderByCode~SLS",
+          "children": [
+          ]
+        },
+        {
+          "name": "fdc:fdc_matrix_host-&gt;com.cainiao.ofp.fdc.common.api.FulfilDecisionService@makeFulfilSolution~MA",
+          "children": [
+            {
+              "name": "resourcecenter:resourcecenterhost-&gt;com.cainiao.rc.service.RcplusPathRouteService@routePathDetailList~SIiLLLS",
+              "children": [
+              ]
+            },
+            {
+              "name": "diccenter-rc:diccenter-rchost-&gt;com.cainiao.dicrc.api.service.DicrcRouteService@routePathWaveInstances~P",
+              "children": [
+              ]
+            },
+            {
+              "name": "diccenter-rc:diccenter-rchost-&gt;com.cainiao.dicrc.api.service.DicrcReadService@mgetPathWave~CP",
+              "children": [
+                {
+                }
+              ]
+            },
+            {
+              "name": "warehousecenter:whc_g0host-&gt;com.taobao.warehouse.ability.service.WhaStoreWaveQueryService@queryWhStoreWaveBatch~L",
+              "children": [
+              ]
+            }
+          ]
+        },
+        {
+          "name": "logisticscenter:lc_g0host-&gt;com.taobao.loc.service.orderinfo.LocWriteService@modifyOrderFeatrueDTO~LLLS",
+          "children": [
+          ]
+        }
+      ]
+    }
+  ]
+}

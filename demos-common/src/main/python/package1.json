@@ -1,0 +1,152 @@
+{
+  "fileLocation": "/home/admin/cndcp/logs/import_tlog.log",
+  "startAgentTaskId": "InfinityLeaf",
+  "fileEncode": "UTF-8",
+  "interval": 3000,
+  "targetList": [],
+  "collectType": "STORE_HBASE",
+  "groupName": "cainiao",
+  "source": "cndcp",
+  "subSource": "import",
+  "splitUnitDefinition": {
+    "unitType": "UNIT_SEQ_V",
+    "splitConfig": {
+      "delimiter": "|"
+    },
+    "subSplitUnitDefinitions": [
+      {
+        "key": "cnprism",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "source",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "subSource",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "trace_id",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "rpc_id",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "gmt_create",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "DATE",
+          "originalDateFormat": "yyyy-MM-dd HH:mm:ss.SSS",
+          "exclude": false
+        }
+      },
+      {
+        "key": "serverIp",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "bitmapKey",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "lpCode",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "cpCode",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "cpType",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "serviceItemId",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "orderNode",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "isSuccess",
+        "unitType": "UNIT_V",
+        "unitValueDefinition": {
+          "valueType": "STRING",
+          "exclude": false
+        }
+      },
+      {
+        "key": "kvs",
+        "unitType": "UNIT_KV",
+        "splitConfig": {
+          "delimiter": ";",
+          "delimiter2": "\u003d"
+        }
+      }
+    ]
+  },
+  "indexs": [
+    [
+      "lpCode"
+    ]
+  ],
+  "traceIdType": "1",
+  "traceIdKey": "trace_id",
+  "rpcIdKey": "rpc_id",
+  "occurTimeKey": "gmt_create",
+  "subscribeDataConfigs": [],
+  "subscribeEventConfigs": [],
+  "nodeGroup": "PROD"
+}

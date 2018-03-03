@@ -1,0 +1,119 @@
+//lc-cc-ofc-fcs-dic-tms-dataaccess->tms-waybill->tms-route->dms-sorting->dipan-engine->division-service->高德HTTP
+[
+  [
+    "logisticscenter:lc_g0host",
+    [
+      "consigncenter:consigncenterhost",
+      [
+        "cuntaofc:cuntaofchost",
+        [
+          "fcs:fcshost",
+          [
+            "diccenter:diccenterhost",
+            [
+              "tms-dataaccess:tms-dataaccesshost",
+              [
+                "tms-waybill:tms-waybillhost",
+                [
+                  "tms-route:tms-routehost",
+                  [
+                    "dms-sorting-analysis:dms-sorting-analysishost",
+                    [
+                      "dipan-engine:dipan-enginehost",
+                      [
+                        "division-service:division-servicehost",
+                        [
+                          "高德HTTP"
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ],
+  //wms->pac->dms->地址库/高德wmp->电子面单->dms->whc->地址库/高德(压测链路)
+  [
+    [
+      "wms",
+      [
+        [
+          "partneraccesscenter:partneraccesscenterhost",
+          [
+            "dms",
+            [
+              "地址库/高德wmp",
+              [
+                "waybill:waybillhost",
+                [
+                  "dms",
+                  [
+                    "whc",
+                    [
+                      "地址库/高德(压测链路)"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    //cc->dic->pac->tms-dataaccess->tms-waybill->dms-sorting/dms-practice(分拨)->tms-dataaccess
+    [
+      "consigncenter:consigncenterhost",
+      [
+        "diccenter:diccenterhost",
+        [
+          "tms-dataaccess:tms-dataaccesshost",
+          [
+            "tms-waybill:tms-waybillhost",
+            [
+              "tms-route:tms-routehost",
+              [
+                "dms-sorting-analysis:dms-sorting-analysishost",
+                [
+                  "dipan-engine:dipan-enginehost",
+                  [
+                    "division-service:division-servicehost",
+                    [
+                      "高德HTTP"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+
+
+    //dms->pac->dic
+
+
+    //dic->pac->tms-dataaccess->tms-waybill->sms-practice(网点)
+
+
+
+    //"buy2->adp->cdc->sdp->cuntaonetwork(站点推荐) buy2->delivery(路由计算)"
+
+
+    //buy2->adp->cdc->cuntaonetwork
+
+
+
+    //cc->lc->notify(modify)->ncc->fc
+
+
+    //fcs->dic->sdc->ncc->fc
+
+    //mtop->fc(涉及内部运单作业单域notify交互)->notify->ncc->notify->ld
+
+    //
+  ]

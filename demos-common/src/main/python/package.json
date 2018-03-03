@@ -1,0 +1,69 @@
+{
+  "name": "61487459672605218",
+  "children": [
+    {
+      "name": "uop-center:uop-centerhost-&gt;com.cainiao.uop.center.gateway.common.service.UopOrderService@acceptOrder~LA",
+      "children": [
+        {
+          "name": "logisticscenter:lc_g0host-&gt;com.taobao.loc.service.orderinfo.LocWriteService@consigning~LLS",
+          "children": []
+        },
+        {
+          "name": "warehousecenter:whc_g0host-&gt;com.taobao.warehouse.service.WhcTradeOrderWriteService@createWhcOrderForTrade~W",
+          "children": [
+            {
+              "name": "warehousecenter:whc_g1host-&gt;ISS@recv~scheduleTask",
+              "children": [
+              ]
+            },
+            {
+              "name": "oic-inventory:oic-inventoryhost-&gt;com.taobao.bis.service.BisInventoryWriteService@occupyInventory~B",
+              "children": []
+            },
+            {
+              "name": "warehousecenter:whc_g1host-&gt;ISS@send~scheduleTask",
+              "children": []
+            },
+            {
+              "name": "iss:isshost-&gt;ISS@send~publishTask",
+              "children": []
+            },
+            {
+              "name": "iss:isshost-&gt;ISS@recv~publishTask",
+              "children": [
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cnsku:cnskuhost-&gt;com.cainiao.cnsku.facade.api.query.CnskuItemQueryService@queryById~LC",
+          "children": [
+          ]
+        },
+        {
+          "name": "oic-inventory:oic-inventoryhost-&gt;com.alibaba.oic.inventory.common.api.OicInventoryWriteService@occupyInventory~IA",
+          "children": [
+            {
+              "name": "businessinventorysolution:businessinventorysolutionhost-&gt;com.taobao.bis.service.BisInventoryWriteService:1.0.0.inner@occupyInventory~B",
+              "children": [
+                {
+                  "name": "inventoryplatform:inventory_sell_writehost-&gt;com.taobao.inventory.client.service.InventoryWlbStoreService@occupyTradeInventory~IA",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "logisticscenter:lc_g1host-&gt;com.taobao.logistics.service.LogisticsOrderService@queryLogisticsOrderListByTradeIdForMakeUpOrder~LLL",
+          "children": []
+        },
+        {
+          "name": "warehousecenter:whc_g0host-&gt;com.taobao.warehouse.service.WhcSupplyChainFinanceReadService@queryUserStatus~L",
+          "children": [
+          ]
+        }
+      ]
+    }
+  ]
+}

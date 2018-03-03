@@ -1,0 +1,110 @@
+    
+
+       cdc    sdp    
+       
+
+    cdc    sdp    
+
+          cdc    sdp
+            delivery    cdc    sdp    
+                           delivery    cdc    sdp    
+                           delivery    cdc    sdp    
+                   cdc    sdp           capacitymanager    
+                    cdc    sdp           capacitymanager    
+        cdc    sdp
+           cdc    sdp    
+          cdc    sdp    
+
+                     uop-center     oic-inventory                    ofc  fcs                     warehousecenter
+                               cdc    fdc
+                      uop-center     oic-inventory                    ofc fcs             businessinventorysolution                      warehousecenter
+                     cndcp    customsplatform      uop-center     oic-inventory    fdc                   warehousecenter
+  consigncenter             diccenter             dms
+          uop-center                  fdc                   warehousecenter
+
+          uop-center                       consigncenter                   warehousecenter
+                   uop-center     ofc    fcs            warehousecenter     diccenter                       uop-center     ofc    fcs    diccenter               uop-center                     ofc    fdc    fcs            warehousecenter
+consign              consigncenter               
+consign              consigncenter                         resourcecenter usa
+ofc    fcs                       businessinventorysolution   fdc  diccenter-rc  usa fcs
+ofc    fcs      uop-center                     fcs    fdc    diccenter
+                            fcs      uop-center                 
+                         fcs   diccenter
+ consign             wlbmywlb
+        cnwireless                            
+
+              lpc
+wmpgateway    wmporder
+wmporder    wmpinventory      waybill
+wmporder    slotting    wmpinventory    slotting    wmporder
+wmpinventory    wmporder
+slotting    wmpinventory    slottting     wmporder
+wmporder    wmpevent
+wmporder        wmpinventory  wmpgateway
+wmporder        wmpinventory  wmpgateway
+wmporder            wmpevent
+wmporder            wmpevent
+wmporder           wmpevent
+wmporder           wmpevent
+wmpevent           wmpdata
+wmphup             wmpdata
+              consigncenter   ofc  fcs  diccenter  tms-dataaccess    tms-waybill    tms-route    dms-sorting    dipan-engine    division-service
+    warehousecenter              dms                      dms
+  consigncenter      diccenter             tms-dataaccess    tms-waybill    dms-sorting   dms-practice    tms-dataaccess
+dms             diccenter
+diccenter             tms-dataaccess    tms-waybill    sms-practice
+                cdc    sdp    cuntaonetwork
+        delivery
+                cdc    cuntaonetwork
+  consigncenter                       ncc         
+fcs    diccenter    sdc    ncc         
+                           ncc
+        delivery    stationplatform        cnalgo    addresstokenizer
+        stationplatform        cnalgo    addresstokenizer
+           delivery    stationplatform
+                                              stationplatform    poststation
+            delivery    stationplatform
+poststation                    stationplatform                
+               cndcp              cncbp         resourcecenter                                         cndcp    cncbp          resourcecenter
+                    uicfinal
+        sdp    gse-service    cngpp
+diccenter               cndcp    cngdf                     resourcecenter              
+cngdf            cngfc
+fdc    cndcp    cngrc
+         cncbp    cf-charge
+        cngcs    cncbp            
+        cngcs                     cndcp    cngrc cniwb    waybill               diccenter  lpc          cngfc    iss    cngfc    cndcp
+      businessinventorysolution     cnsku    cnuser           resourcecenter              wmpgateway  wmporder
+    waybill-oversea
+    businessinventorysolution
+wmporder  wmpgateway        
+
+            
+    ofc
+      consigncenter  
+    diccenter
+
+    iss
+
+
+          consigncenter      cngcs                                    cngrc    cniwb           resourcecenter    waybill-oversea        cngcs        cngfc
+                   consigncenter      cngcs                                    cngrc    waybill        cngcs        cngfc
+        waybill    waybill-sequence    cilogistics-promise    routingservice    alphabird    addresstokenizer    alphabird-rank    diccenter    cnwireless    lpc    waybill-async    schedulecenter    waybill-async    partneraccesscenter
+wmporder    waybill    tms-dataaccess    waybill-sequence    waybill-async
+        waybill    cilogistics-promise    cnwireless    diccenter    waybill-async    schedulecenter    waybill-async    partneraccesscenter
+        waybill    waybill-async    cnwireless    lpc    diccenter
+riskcontrolcenter    waybill
+          waybill
+        waybill    addresstokenizer    alphabird    alphabird-rank    cilogistics-service    usa    waybill-sequence    schedulecenter    waybill-async    partneraccesscenter             nblogisticdata             diccenter
+        waybill-print
+        waybill    lpc    diccenter    cnwireless    waybill-async    schedulecenter    waybill-async    partneraccesscenter
+lpc        nbpushcenter              resourcecenter        nbadd
+   nbpushcenter   lpc    lockerplatform  nbpushcenter
+                           cnwireless       logisticsdetail  
+            cnwireless    nbantispam  nbordercenter  dorado
+            tdbusiness    tdplatform            dorado
+cuntaoplatform      alphabird    dipan-engine
+routingservice      alphabird    alphabird-rank
+alphabird-realtime    alphabird    alphabird-rank
+dms-sorting      alphabird
+dipan-engine

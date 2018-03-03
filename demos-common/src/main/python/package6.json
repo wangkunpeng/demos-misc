@@ -1,0 +1,1 @@
+accountcenter:accountcenterhost, com.taobao.wlb.accountcenter.client.service.deposit.DepositService@queryFreezeBailAmount~L, misccenter: misccenterhost, com.taobao.misccenter.service.BailService@queryBailInfo~B,1.0, NA

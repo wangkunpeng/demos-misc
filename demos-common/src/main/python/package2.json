@@ -1,0 +1,1228 @@
+{
+  "code": "0",
+  "errMsg": "",
+  "data": [
+    {
+      "bizDomainId": 12,
+      "bizDomainName": "电子面单",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "136608",
+      "links": [
+        {
+          "source": "accountcenter:accountcenterhost",
+          "target": "(metaq@JW_WLB_ACCOUNT_APP_acc_charge_order)",
+          "metrics": []
+        },
+        {
+          "source": "(db@cainiao_scd)",
+          "target": "link",
+          "metrics": []
+        },
+        {
+          "source": "top:tophost",
+          "target": "(tair@market2)",
+          "metrics": []
+        },
+        {
+          "source": "waybill-async:waybill-asynchost",
+          "target": "(db@cainiao_scd)",
+          "metrics": []
+        },
+        {
+          "source": "(Tair客户端)",
+          "target": "(tair@cainiao)",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@TopicFortuneCube)",
+          "target": "fortune-cube:fortune-cubehost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LINK_LOG_SHIDC)",
+          "target": "link:shidc-publish",
+          "metrics": []
+        },
+        {
+          "source": "waybill-async:waybill-asynchost",
+          "target": "link",
+          "metrics": []
+        },
+        {
+          "source": "link",
+          "target": "(db@cainiao_linkidc_basic)",
+          "metrics": []
+        },
+        {
+          "source": "(notify@CAINIAO-WAYBILL-LIFECYCLE-NEW)",
+          "target": "diccenter:diccenter_betahost",
+          "metrics": []
+        },
+        {
+          "source": "(db@wlb_account)",
+          "target": "fortune-cube:fortune-cubehost",
+          "metrics": []
+        },
+        {
+          "source": "waybill:waybillhost",
+          "target": "diccenter:diccenterhost",
+          "metrics": []
+        },
+        {
+          "source": "link",
+          "target": "(db@cainiao_pac)",
+          "metrics": []
+        },
+        {
+          "source": "routingservice:routingservicehost",
+          "target": "(Tair客户端)",
+          "metrics": []
+        },
+        {
+          "source": "(notify@CAINIAO-SCHEDULECENTER)",
+          "target": "schedulecenter:schedulecenterhost",
+          "metrics": []
+        },
+        {
+          "source": "waybill:waybillhost",
+          "target": "cilogistics-promise:cilogistics-promisehost",
+          "metrics": []
+        },
+        {
+          "source": "accountcenter:accountcenterhost",
+          "target": "(metaq@JW_WLB_ACCOUNT_APP_acc_pay_order)",
+          "metrics": []
+        },
+        {
+          "source": "top:tophost",
+          "target": "waybill:waybillhost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@CAINIAO-WAYBILL-LIFECYCLE-NEW)",
+          "target": "diccenter:diccenterhost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@CAINIAO-WAYBILL-LIFECYCLE-NEW)",
+          "target": "lpc:lpchost",
+          "metrics": []
+        },
+        {
+          "source": "(db@cainiao_scd)",
+          "target": "(db@cainiao_waybill)",
+          "metrics": []
+        },
+        {
+          "source": "(notify@CAINIAO-SCHEDULECENTER)",
+          "target": "(db@cainiao_scd)",
+          "metrics": []
+        },
+        {
+          "source": "(db@cainiao_scd)",
+          "target": "link:shidc-publish",
+          "metrics": []
+        },
+        {
+          "source": "routingservice:routingservicehost",
+          "target": "dipan-engine:dipan-engine_dms-SHUNJIEFENGDAPEISONG-0001",
+          "metrics": []
+        },
+        {
+          "source": "(notify@CAINIAO-WAYBILL-LIFECYCLE-NEW)",
+          "target": "waybill-async:waybill-asynchost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@CAINIAO-SCHEDULECENTER)",
+          "target": "waybill-async:waybill-asynchost",
+          "metrics": []
+        },
+        {
+          "source": "routingservice:routingservicehost",
+          "target": "alphabird:alphabird_fendan_host",
+          "metrics": []
+        },
+        {
+          "source": "(notify@ACCOUNT-CENTER-TOPIC)",
+          "target": "cilogistics-promise:cilogistics-promisehost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LINK_LOG_SHIDC)",
+          "target": "partneraccessdoor:partneraccessdoorhost",
+          "metrics": []
+        },
+        {
+          "source": "top:tophost",
+          "target": "(tair@top)",
+          "metrics": []
+        },
+        {
+          "source": "link",
+          "target": "(metaq@LINK_LOG_SHIDC)",
+          "metrics": []
+        },
+        {
+          "source": "(notify@ACCOUNT-CENTER-TOPIC)",
+          "target": "fortune-cube:fortune-cubehost",
+          "metrics": []
+        },
+        {
+          "source": "(db@wlb_account)",
+          "target": "cilogistics-promise:cilogistics-promisehost",
+          "metrics": []
+        },
+        {
+          "source": "waybill:waybillhost",
+          "target": "lpc:lpchost",
+          "metrics": []
+        },
+        {
+          "source": "link",
+          "target": "(tair@cainiao)",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 34,
+      "bizDomainName": "订单履约",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "(metaq@MONITOR_LOG_TOPIC)",
+          "target": "partneraccesscenter:partneraccesscenterhost",
+          "metrics": []
+        },
+        {
+          "source": "bmscore:bmscorehost",
+          "target": "(tair@session)",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 37,
+      "bizDomainName": "发货链路",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "(notify@LOGISTICS_CENTER_MODIFY)",
+          "target": "ofc:ofchost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@ofc-platform)",
+          "target": "ofc:ofchost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@LOGISTICS_CENTER_CREATE)",
+          "target": "ofc:ofchost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 22,
+      "bizDomainName": "集运业务",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "cndcp:cndcphost",
+          "target": "track:track_hzhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LINK_LOG_SHIDC)",
+          "target": "link:shidc-publish",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LINK_LOG_SHIDC)",
+          "target": "partneraccessdoor:partneraccessdoorhost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 23,
+      "bizDomainName": "进口",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "(metaq@LINK_LOG_SHIDC)",
+          "target": "link:shidc-publish",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 20,
+      "bizDomainName": "订单域",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "75686",
+      "links": [
+        {
+          "source": "(notify@LOGISTICS_CENTER_MODIFY)",
+          "target": "logisticscenter:logisticscenterhost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@LOGISTICS_CENTER_MODIFY)",
+          "target": "logisticsbus:logisticsbushost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@LOGISTICS_CENTER_MODIFY)",
+          "target": "logisticscenter:lc_g0host",
+          "metrics": []
+        },
+        {
+          "source": "(notify@LOGISTICS_CENTER_MODIFY)",
+          "target": "lpc:lpchost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@TRADE-SUB)",
+          "target": "logisticsbus:logisticsbushost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@LOGISTICS_CENTER_MODIFY)",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@LOGISTICS_CENTER_MODIFY)",
+          "target": "logisticscenter:lc_g1host",
+          "metrics": []
+        },
+        {
+          "source": "(notify@LOGISTICS_CENTER_MODIFY)",
+          "target": "bmsgateway:bmsgatewayhost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 3,
+      "bizDomainName": "跟踪平台",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "136608",
+      "links": [
+        {
+          "source": "aserver:aserverhost",
+          "target": "(db@uic_bxp)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "lpc:lpchost",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@ocs_mdb)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@uic)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@ldbcommon3)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@market2)",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "tradeplatform:tpg2host",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@ldbcommon)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@common3a)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@session)",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 24,
+      "bizDomainName": "dabao",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "wmpbasic:wmpbasic_grephost",
+          "target": "(db@cainiao_wms_basic)",
+          "metrics": []
+        },
+        {
+          "source": "wmporder:wmporderhost",
+          "target": "(Tair客户端)",
+          "metrics": []
+        },
+        {
+          "source": "wmporder:wmporderhost",
+          "target": "wmpbasic:wmpbasic_grephost",
+          "metrics": []
+        },
+        {
+          "source": "(Tair客户端)",
+          "target": "(tair@cainiao)",
+          "metrics": []
+        },
+        {
+          "source": "wmporder:wmporder_printhost",
+          "target": "(Tair客户端)",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 6,
+      "bizDomainName": "乡村履行",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "135666",
+      "links": [
+        {
+          "source": "alphabird:alphabird_vrp_host",
+          "target": "cuntaofc:cuntaofchost",
+          "metrics": []
+        },
+        {
+          "source": "cuntaofc:cuntaofchost",
+          "target": "cuntaofc:cuntaofchost",
+          "metrics": []
+        },
+        {
+          "source": "iwant-tsc:iwant-tschost",
+          "target": "cuntaofc:cuntaofchost",
+          "metrics": []
+        },
+        {
+          "source": "mtop:mtop_gray3_host",
+          "target": "cuntaofc:cuntaofchost",
+          "metrics": []
+        },
+        {
+          "source": "cuntaofc:cuntaofchost",
+          "target": "logisticscenter:logisticscenterhost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 25,
+      "bizDomainName": "大电－自动流转",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "lpc:lpchost",
+          "metrics": []
+        },
+        {
+          "source": "(db@cainiao_check)",
+          "target": "(tair@item)",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "cdc:cdc_doom_host",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "nblogisticdata:nblogisticdatahost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@cainiaocheck_metaq_topic)",
+          "target": "cainiao-check:cainiao-checkhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@cainiaocheck_metaq_topic)",
+          "target": "oic-inventory:oic-inventoryhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_WHC_APP_wh_inventory)",
+          "target": "cainiao-check:cainiao-checkhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_OIC_INV_APP_oic_warehouse_inv)",
+          "target": "(db@cainiao_check)",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "nbpushcenter:nbpushcenterhost",
+          "metrics": []
+        },
+        {
+          "source": "oic-inventory:oic-inventoryhost",
+          "target": "inventoryaccount:inventoryaccounthost",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "link",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_WHC_APP_wh_inventory)",
+          "target": "cnsku:cnskuhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@MONITOR_LOG_TOPIC)",
+          "target": "partneraccesscenter:partneraccesscenterhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_OIC_INV_APP_oic_warehouse_inv)",
+          "target": "(metaq@cainiaocheck_metaq_topic)",
+          "metrics": []
+        },
+        {
+          "source": "bmscore:bmscorehost",
+          "target": "warehouserouteservice:warehouserouteservice_consignhost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@ofc-platform)",
+          "target": "ofc:ofchost",
+          "metrics": []
+        },
+        {
+          "source": "bmscore:bmscorehost",
+          "target": "logisticsdetail:logisticsdetail_doom_host",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_OIC_INV_APP_oic_warehouse_inv)",
+          "target": "(tair@item)",
+          "metrics": []
+        },
+        {
+          "source": "top:tophost",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_WHC_APP_wh_inventory)",
+          "target": "(db@cainiao_check)",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL)",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "top:tophost",
+          "target": "(tair@top)",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "(tair@mdbcomm)",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_WHC_APP_wh_inventory)",
+          "target": "(metaq@cainiaocheck_metaq_topic)",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_OUTER_PUSH)",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_WHC_APP_wh_inventory)",
+          "target": "cnrealtime:jstorm-cainiao",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 27,
+      "bizDomainName": "订单发货1",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "warehousecenter",
+          "target": "itemcenter",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "warehousecenter:warehousecenter_prehost",
+          "metrics": []
+        },
+        {
+          "source": "oic-inventory",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "cdc:cdc_doom_host",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@cainiaocheck_metaq_topic)",
+          "target": "cainiao-check:cainiao-checkhost",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "usa",
+          "metrics": []
+        },
+        {
+          "source": "bmscore",
+          "target": "partneraccesscenter:partneraccesscenterhost",
+          "metrics": []
+        },
+        {
+          "source": "fdc-console",
+          "target": "fcs",
+          "metrics": []
+        },
+        {
+          "source": "oic-inventory",
+          "target": "inventoryplatform",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "iss",
+          "metrics": []
+        },
+        {
+          "source": "link",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "bmsbase",
+          "target": "oic-inventory",
+          "metrics": []
+        },
+        {
+          "source": "fcs",
+          "target": "usa:usahost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_OIC_INV_APP_oic_warehouse_inv)",
+          "target": "(db@cainiao_check)",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "diccenter",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "link",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "scf",
+          "metrics": []
+        },
+        {
+          "source": "top",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_OIC_INV_APP_oic_warehouse_inv)",
+          "target": "warehouse-resource-center:warehouse-resource-centerhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_OIC_INV_APP_oic_warehouse_inv)",
+          "target": "(metaq@cainiaocheck_metaq_topic)",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "link",
+          "metrics": []
+        },
+        {
+          "source": "consigncenter",
+          "target": "ofc",
+          "metrics": []
+        },
+        {
+          "source": "bmscore",
+          "target": "link",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "diccenter",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@JW_CAINIAO_OIC_INV_APP_oic_warehouse_inv)",
+          "target": "(tair@item)",
+          "metrics": []
+        },
+        {
+          "source": "top",
+          "target": "oic-inventory",
+          "metrics": []
+        },
+        {
+          "source": "fcs",
+          "target": "ofc",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "bmscore",
+          "target": "wuliumisc",
+          "metrics": []
+        },
+        {
+          "source": "bmscore",
+          "target": "partneraccessdoor:partneraccessdoorhost",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "fcs:fcs_doom_host",
+          "metrics": []
+        },
+        {
+          "source": "bmscore",
+          "target": "delivery",
+          "metrics": []
+        },
+        {
+          "source": "fdc",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "cdc:cdc_prehost",
+          "metrics": []
+        },
+        {
+          "source": "consign",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "diccenter",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "bmsbase",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "scmseller",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "oic-inventory",
+          "metrics": []
+        },
+        {
+          "source": "fcs",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "fcs",
+          "target": "usa",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 2,
+      "bizDomainName": "村淘中心",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "136608",
+      "links": [
+        {
+          "source": "(notify@UIC)",
+          "target": "locationservice:locationservicehost",
+          "metrics": []
+        },
+        {
+          "source": "(notify@UIC)",
+          "target": "cuntaonetwork:cuntaonetworkhost",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "cuntaonetwork:cuntaonetworkhost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 45,
+      "bizDomainName": "物流详情1",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "servicecenter:servicecenterhost",
+          "metrics": []
+        },
+        {
+          "source": "lassen",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "fileserver2-rpc:hz.fileserver2-rpc",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "tradeplatform3:verified__yacehost",
+          "metrics": []
+        },
+        {
+          "source": "daogoubao:daogoubaohost",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "jucube:jucubehost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "(tair@session)",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "iwarehouse:iwarehousehost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "tfrival:tfrivalhost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "tradeplatform:tpg3host",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "login:loginhost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "tradeplatform:tpg2host",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "(tair@common3a)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "tradeplatform:tpg3_gray3_host",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "shadowtbapi:shadowtbapihost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "ark-lab-1:ark-lab-1host",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "cf-charge:cf-chargehost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 9,
+      "bizDomainName": "交易",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "136608",
+      "links": [
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@ump)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@inventory)",
+          "metrics": []
+        },
+        {
+          "source": "cuntaonetwork:cuntaonetworkhost",
+          "target": "(tair@ocs_mdb)",
+          "metrics": []
+        },
+        {
+          "source": "bcp:bcpjwhost",
+          "target": "cuntaonetwork:cuntaonetworkhost",
+          "metrics": []
+        },
+        {
+          "source": "cilogistics-promise:cilogistics-promisehost",
+          "target": "cdc:cdchost",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "cdc:cdchost",
+          "metrics": []
+        },
+        {
+          "source": "dosa:dosaminihost",
+          "target": "cdc:cdchost",
+          "metrics": []
+        },
+        {
+          "source": "cuntaonetwork:cuntaonetworkhost",
+          "target": "(notify@CAINIAO-SCHEDULECENTER)",
+          "metrics": []
+        },
+        {
+          "source": "cdc:cdc_doom_host",
+          "target": "cuntaonetwork:cuntaonetworkhost",
+          "metrics": []
+        },
+        {
+          "source": "ocs-mtair:ocs_su18_ds_mtair",
+          "target": "cdc:cdchost",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@item)",
+          "metrics": []
+        },
+        {
+          "source": "aserver:aserverhost",
+          "target": "(tair@uic)",
+          "metrics": []
+        },
+        {
+          "source": "cuntaonetwork:cuntaonetworkhost",
+          "target": "bcs:bcshost",
+          "metrics": []
+        },
+        {
+          "source": "cuntaogrouptrade:cuntaogrouptradehost",
+          "target": "cuntaonetwork:cuntaonetworkhost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 29,
+      "bizDomainName": "商超发货",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "logisticsdetail",
+          "target": "logisticscenter",
+          "metrics": []
+        },
+        {
+          "source": "fdc",
+          "target": "diccenter",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail",
+          "target": "link",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@FDC-MQ-MOCK-TEST)",
+          "target": "fdc",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "businesscenter",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "scmcore",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "inventoryplatform",
+          "metrics": []
+        },
+        {
+          "source": "uop-center",
+          "target": "diccenter",
+          "metrics": []
+        },
+        {
+          "source": "fdc",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "link",
+          "target": "businessinventorysolution",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "scf",
+          "metrics": []
+        },
+        {
+          "source": "schedulecenter",
+          "target": "bmscore",
+          "metrics": []
+        },
+        {
+          "source": "diccenter",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "link",
+          "metrics": []
+        },
+        {
+          "source": "scmseller",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail",
+          "target": "warehousecenter",
+          "metrics": []
+        },
+        {
+          "source": "warehousecenter",
+          "target": "diccenter",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 36,
+      "bizDomainName": "履约",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "560251",
+      "links": [
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "lpc:lpchost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "nblogisticdata:nblogisticdatahost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "lifeprovider:et2-lifeprovider",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "nbpushcenter:nbpushcenterhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LPC_PACK_DATABASE_CHANGE)",
+          "target": "lpc:lpchost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@MONITOR_LOG_TOPIC)",
+          "target": "partneraccesscenter:partneraccesscenterhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@lec_msg_publish)",
+          "target": "ldmonitor:ldmonitorhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LPC_PACK_DATABASE_CHANGE)",
+          "target": "poc:pochost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LPC_PACK_DATABASE_CHANGE)",
+          "target": "nbpushcenter:nbpushcenterhost",
+          "metrics": []
+        },
+        {
+          "source": "link",
+          "target": "partneraccesscenter:partneraccesscenterhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@DATA_CHANGE_EVENT)",
+          "target": "pscm-bill:pscm-billhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "topnotify:topnotifyhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "bmsgateway:bmsgatewayhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@BMS-ORDER)",
+          "target": "bmsdatax:bmsdataxhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL)",
+          "target": "logisticsdetail:logisticsdetailhost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LOGIS_DETAIL_PUBLIC)",
+          "target": "pscm-bill:pscm-billhost",
+          "metrics": []
+        },
+        {
+          "source": "logisticsdetail:logisticsdetailhost",
+          "target": "(tair@mdbcomm)",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 39,
+      "bizDomainName": "帐号基础链路",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "23496",
+      "links": [
+        {
+          "source": "top:tophost",
+          "target": "cnuser:cnuserhost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 38,
+      "bizDomainName": "包裹侠用户链路",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "23496",
+      "links": [
+        {
+          "source": "(metaq@CAINIAO_DISPATCH_MAILNO_TOPIC)",
+          "target": "deliverylist:deliverylisthost",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@LINK_LOG_SHIDC)",
+          "target": "link:shidc-publish",
+          "metrics": []
+        },
+        {
+          "source": "(metaq@CAINIAO_DISPATCH_MAILNO_TOPIC)",
+          "target": "cnwireless:cnwirelesshost",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "bizDomainId": 40,
+      "bizDomainName": "权限链路",
+      "bizDomainDescribe": "",
+      "bizDomainUserId": "23496",
+      "links": [
+        {
+          "source": "cangmengpms:cangmengpmshost",
+          "target": "(tair@common3a)",
+          "metrics": []
+        }
+      ]
+    }
+  ]
+}
